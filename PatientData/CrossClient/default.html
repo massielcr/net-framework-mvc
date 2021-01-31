@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <h3>Cross Request</h3>
+
+    <button id="getPatients" >Get Patients</button>
+
+    <pre id="output">
+
+    </pre>
+
+    <script src="scripts/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+            var getPatiens = function () {
+
+                $.get(url).always(showResponse);
+
+                return false;
+            };
+
+            var showResponse = function (object) {
+
+                $("#output").text(JSON.stringify(object, null, 4));
+            };
+
+            var url = "http://localhost:51451/api/patients";
+
+            $("#getPatients").click(getPatiens);
+        });
+    </script>
+</body>
+</html>

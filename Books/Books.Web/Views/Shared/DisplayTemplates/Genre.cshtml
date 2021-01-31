@@ -1,0 +1,14 @@
+﻿@using Books.Entities.Enums
+@using Books.Web.Helpers
+
+@{ 
+    var text = typeof(Genre).GetMyName((int)Model);
+}
+
+
+@Html.Label("", text)
+
+
+
+
+

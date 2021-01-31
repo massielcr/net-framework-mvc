@@ -1,0 +1,10 @@
+C:\PLAYGROUND\70-486\Books\Books.Entities\bin\Debug\Books.Entities.dll
+C:\PLAYGROUND\70-486\Books\Books.Entities\bin\Debug\Books.Entities.pdb
+C:\PLAYGROUND\70-486\Books\Books.Entities\obj\Debug\Books.Entities.dll
+C:\PLAYGROUND\70-486\Books\Books.Entities\obj\Debug\Books.Entities.pdb
+C:\GITHUB\70-486\Books\Books.Entities\bin\Debug\Books.Entities.dll
+C:\GITHUB\70-486\Books\Books.Entities\bin\Debug\Books.Entities.pdb
+C:\GITHUB\70-486\Books\Books.Entities\obj\Debug\Books.Entities.csprojAssemblyReference.cache
+C:\GITHUB\70-486\Books\Books.Entities\obj\Debug\Books.Entities.csproj.CoreCompileInputs.cache
+C:\GITHUB\70-486\Books\Books.Entities\obj\Debug\Books.Entities.dll
+C:\GITHUB\70-486\Books\Books.Entities\obj\Debug\Books.Entities.pdb
