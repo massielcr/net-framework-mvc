@@ -1,4 +1,5 @@
 ﻿using Fundamentals.Extensions;
+using Fundamentals.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +9,8 @@ using System.Web.Mvc;
 namespace Fundamentals.Controllers
 {
     [GlobalFilter]
-    public class HomeController : Controller
+    public class HomeController : CustomController
     {
-        [ActionFilter1(Order = 1)]
-        [ActionFilter2(Order = 2)]
-        [AuthorizationFilter]
         public ActionResult Index()
         {
             return View();
@@ -45,6 +43,23 @@ namespace Fundamentals.Controllers
             ViewBag.Message = "Message: This is not running on a mobile";
 
             return View();
+        }
+
+        [ActionFilter1(Order = 1)]
+        [ActionFilter2(Order = 2)]
+        [AuthorizationFilter]
+        public ActionResult Filters()
+        {
+            return View();
+        }
+
+        public ActionResult Person()
+        {
+            return JsonNet(new Person
+            {
+               FirstName = "Massiel",
+               LastName =  "C"
+            });
         }
     }
 }
