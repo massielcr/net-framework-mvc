@@ -10,7 +10,7 @@ namespace Fundamentals.Extensions
     {
         public IController CreateController(RequestContext requestContext, string controllerName)
         {
-            return controllerName == "parameter" ? (IController)new ParameterController(new Logger()) : new HomeController();
+            return controllerName.ToLower() == "parameter" ? (IController)new ParameterController(new Logger()) : new HomeController();
         }
 
         public SessionStateBehavior GetControllerSessionBehavior(RequestContext requestContext, string controllerName)
