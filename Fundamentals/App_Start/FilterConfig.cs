@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using Fundamentals.Extensions;
+using System.Web;
 using System.Web.Mvc;
 
 namespace Fundamentals
@@ -8,6 +9,7 @@ namespace Fundamentals
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new GlobalFilter());
         }
     }
 }

@@ -7,8 +7,12 @@ using System.Web.Mvc;
 
 namespace Fundamentals.Controllers
 {
+    [GlobalFilter]
     public class HomeController : Controller
     {
+        [ActionFilter1(Order = 1)]
+        [ActionFilter2(Order = 2)]
+        [AuthorizationFilter]
         public ActionResult Index()
         {
             return View();
