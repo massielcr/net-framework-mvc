@@ -57,8 +57,8 @@ namespace Fundamentals.Controllers
         {
             return JsonNet(new Person
             {
-               FirstName = "Massiel",
-               LastName =  "C"
+               FirstName = "Bob",
+               LastName =  "Doe"
             });
         }
     }
