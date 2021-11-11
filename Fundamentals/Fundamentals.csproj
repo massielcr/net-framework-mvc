@@ -120,6 +120,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Configurations\Redirect.cs" />
+    <Compile Include="Configurations\RedirectCollection.cs" />
+    <Compile Include="Configurations\RedirectSection.cs" />
     <Compile Include="Controllers\CustomController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ParameterController.cs" />
@@ -127,6 +130,7 @@
     <Compile Include="Extensions\CustomFilter.cs" />
     <Compile Include="Extensions\IsMobile.cs" />
     <Compile Include="Extensions\JsonNetResult.cs" />
+    <Compile Include="Extensions\RedirectModule.cs" />
     <Compile Include="Extensions\ThemeViewEngine.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
