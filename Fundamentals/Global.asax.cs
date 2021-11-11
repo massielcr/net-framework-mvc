@@ -10,12 +10,16 @@ namespace Fundamentals
     {
         protected void Application_Start()
         {
+            //custom controller
             ControllerBuilder.Current.SetControllerFactory(new ParameterControllerFactory());
 
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            //use custom view engine first and razor after it
+            ViewEngines.Engines.Insert(0, new ThemeViewEngine());
         }
 
         protected void Application_PreRequestHandlerExecute()
