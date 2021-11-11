@@ -20,13 +20,12 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Controller", "", "Parameter")</li>
-                    <li>@Html.ActionLink("Action", "Details", "Home")</li>
-                    <li>@Html.ActionLink("Filters", "Filters", "Home")</li>
-                    <li>@Html.ActionLink("ActionResult", "Person", "Home")</li>
+                    <li>@Html.RouteLink("Home", "Default", new { controller = "Home", action = "Index" })</li>
+                    <li>@Html.RouteLink("Controller", "Default", new { controller = "Parameter" })</li>
+                    <li>@Html.RouteLink("Action", "Default", new { controller = "Home", action = "Details" })</li>
+                    <li>@Html.RouteLink("Filters", "Default", new { controller = "Home", action = "Filters" })</li>
+                    <li>@Html.RouteLink("ActionResult", "Default", new { controller = "Home", action = "Person" })</li>
+                    <li>@Html.RouteLink("Handler", "Book", new { title = "" })</li>
                 </ul>
             </div>
         </div>

@@ -123,6 +123,7 @@
     <Compile Include="Controllers\CustomController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ParameterController.cs" />
+    <Compile Include="Extensions\BookHandler.cs" />
     <Compile Include="Extensions\CustomFilter.cs" />
     <Compile Include="Extensions\IsMobile.cs" />
     <Compile Include="Extensions\JsonNetResult.cs" />
