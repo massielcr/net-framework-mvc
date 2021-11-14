@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fundamentals.Services
+namespace LifeCycle.Services
 {
     public interface ILogger
     {

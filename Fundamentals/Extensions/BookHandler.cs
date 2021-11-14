@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Fundamentals.Extensions
+namespace LifeCycle.Extensions
 {
     public class BookHandler : IHttpHandler
     {

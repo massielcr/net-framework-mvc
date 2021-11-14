@@ -1,10 +1,10 @@
-﻿using Fundamentals.Extensions;
+﻿using LifeCycle.Extensions;
 using System.Diagnostics;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace Fundamentals
+namespace LifeCycle
 {
     public class MvcApplication : System.Web.HttpApplication
     {

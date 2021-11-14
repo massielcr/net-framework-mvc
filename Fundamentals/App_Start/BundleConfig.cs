@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Fundamentals
+namespace LifeCycle
 {
     public class BundleConfig
     {

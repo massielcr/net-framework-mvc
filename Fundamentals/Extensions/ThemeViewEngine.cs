@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Fundamentals.Extensions
+namespace LifeCycle.Extensions
 {
     public class ThemeViewEngine : RazorViewEngine
     {

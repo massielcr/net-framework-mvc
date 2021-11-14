@@ -1,10 +1,10 @@
-﻿using Fundamentals.Controllers;
-using Fundamentals.Services;
+﻿using LifeCycle.Controllers;
+using LifeCycle.Services;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.SessionState;
 
-namespace Fundamentals.Extensions
+namespace LifeCycle.Extensions
 {
     public class ParameterControllerFactory : IControllerFactory
     {

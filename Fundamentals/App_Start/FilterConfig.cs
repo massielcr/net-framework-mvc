@@ -1,8 +1,8 @@
-﻿using Fundamentals.Extensions;
+﻿using LifeCycle.Extensions;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Fundamentals
+namespace LifeCycle
 {
     public class FilterConfig
     {

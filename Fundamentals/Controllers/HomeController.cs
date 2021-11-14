@@ -1,12 +1,12 @@
-﻿using Fundamentals.Extensions;
-using Fundamentals.Models;
+﻿using LifeCycle.Extensions;
+using LifeCycle.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Fundamentals.Controllers
+namespace LifeCycle.Controllers
 {
     [GlobalFilter]
     public class HomeController : CustomController

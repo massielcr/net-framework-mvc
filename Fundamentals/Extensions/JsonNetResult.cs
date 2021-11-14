@@ -5,7 +5,7 @@ using System;
 using System.Reflection;
 using System.Web.Mvc;
 
-namespace Fundamentals.Extensions
+namespace LifeCycle.Extensions
 {
     public class JsonNetResult : ActionResult
     {

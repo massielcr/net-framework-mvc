@@ -1,11 +1,11 @@
-﻿using Fundamentals.Configurations;
+﻿using LifeCycle.Configurations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Configuration;
 
-namespace Fundamentals.Extensions
+namespace LifeCycle.Extensions
 {
     public class RedirectModule : IHttpModule
     {
