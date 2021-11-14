@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Fundamentals",
-    "\\Fundamentals\\Controllers"
+    "\\Fundamentals"
   ],
-  "SelectedNode": "\\Fundamentals\\Controllers\\ParameterController.cs",
+  "SelectedNode": "\\Fundamentals\\Fundamentals.sln",
   "PreviewInSolutionExplorer": false
 }
