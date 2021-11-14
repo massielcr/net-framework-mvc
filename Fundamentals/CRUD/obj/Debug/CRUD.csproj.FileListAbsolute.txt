@@ -77,3 +77,9 @@ C:\GITHUB\net-mvc\Fundamentals\CRUD\bin\Microsoft.CodeDom.Providers.DotNetCompil
 C:\GITHUB\net-mvc\Fundamentals\CRUD\obj\Debug\CRUD.csproj.CopyComplete
 C:\GITHUB\net-mvc\Fundamentals\CRUD\obj\Debug\CRUD.dll
 C:\GITHUB\net-mvc\Fundamentals\CRUD\obj\Debug\CRUD.pdb
+C:\GITHUB\net-mvc\Fundamentals\CRUD\bin\System.Net.Http.Formatting.dll
+C:\GITHUB\net-mvc\Fundamentals\CRUD\bin\System.Web.Http.dll
+C:\GITHUB\net-mvc\Fundamentals\CRUD\bin\System.Web.Http.WebHost.dll
+C:\GITHUB\net-mvc\Fundamentals\CRUD\bin\System.Net.Http.Formatting.xml
+C:\GITHUB\net-mvc\Fundamentals\CRUD\bin\System.Web.Http.xml
+C:\GITHUB\net-mvc\Fundamentals\CRUD\bin\System.Web.Http.WebHost.xml
