@@ -1,6 +1,3 @@
-C:\GITHUB\net-mvc\Fundamentals\bin\Fundamentals.dll.config
-C:\GITHUB\net-mvc\Fundamentals\bin\Fundamentals.dll
-C:\GITHUB\net-mvc\Fundamentals\bin\Fundamentals.pdb
 C:\GITHUB\net-mvc\Fundamentals\bin\roslyn\csc.exe
 C:\GITHUB\net-mvc\Fundamentals\bin\roslyn\csc.exe.config
 C:\GITHUB\net-mvc\Fundamentals\bin\roslyn\csc.rsp
@@ -75,5 +72,8 @@ C:\GITHUB\net-mvc\Fundamentals\bin\Microsoft.CodeDom.Providers.DotNetCompilerPla
 C:\GITHUB\net-mvc\Fundamentals\obj\Debug\LifeCycle.csproj.AssemblyReference.cache
 C:\GITHUB\net-mvc\Fundamentals\obj\Debug\LifeCycle.csproj.CoreCompileInputs.cache
 C:\GITHUB\net-mvc\Fundamentals\obj\Debug\LifeCycle.csproj.CopyComplete
-C:\GITHUB\net-mvc\Fundamentals\obj\Debug\Fundamentals.dll
-C:\GITHUB\net-mvc\Fundamentals\obj\Debug\Fundamentals.pdb
+C:\GITHUB\net-mvc\Fundamentals\bin\LifeCycle.dll.config
+C:\GITHUB\net-mvc\Fundamentals\bin\LifeCycle.dll
+C:\GITHUB\net-mvc\Fundamentals\bin\LifeCycle.pdb
+C:\GITHUB\net-mvc\Fundamentals\obj\Debug\LifeCycle.dll
+C:\GITHUB\net-mvc\Fundamentals\obj\Debug\LifeCycle.pdb
